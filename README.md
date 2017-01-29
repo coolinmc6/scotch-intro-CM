@@ -78,6 +78,7 @@ this.getSearch = this.getSearch.bind(this);
 our component's state so that this.state.term always contains whatever they are looking for or
 for this more general case, what they are trying to input.
 
+
 1. Create a method that 'submits' or 'adds' the term when the user clicks a button.
 
 ```javascript
@@ -104,6 +105,7 @@ have the value of what they are adding/submitting in 'this.state.term'
     onClick={(event) => this.addTerm()}
   >Add Item</button>
 ```
+
 
 
 
