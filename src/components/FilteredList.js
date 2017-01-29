@@ -65,7 +65,7 @@ class FilteredList extends Component {
 							value={this.state.term}/>
 					&nbsp; &nbsp;
 					<button className="btn btn-success"
-							onClick={event => this.addTerm()}
+							onClick={(event) => this.addTerm()}
 						>Add Item</button>
 						<br />
 					<ul className="list-group">
